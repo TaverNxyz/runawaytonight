@@ -22,7 +22,7 @@ const Contact = () => {
 
     // Simulate form submission
     setTimeout(() => {
-      const mailtoLink = `mailto:bookings@eliteagency.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+      const mailtoLink = `mailto:info@runawaytonight.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       )}`;
       
@@ -78,17 +78,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="text-primary">bookings@eliteagency.com</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4 p-4 glass-effect rounded-lg border border-border/50">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <Phone className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-semibold">Phone</p>
-                    <p className="text-primary">+1 (555) 123-BOOK</p>
+                    <p className="text-primary">info@runawaytonight.com</p>
                   </div>
                 </div>
                 
@@ -98,19 +88,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold">Location</p>
-                    <p className="text-primary">Los Angeles, CA</p>
+                    <p className="text-primary">Global</p>
                   </div>
                 </div>
                 
-                <div className="flex items-center gap-4 p-4 glass-effect rounded-lg border border-border/50">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <Clock className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-semibold">Hours</p>
-                    <p className="text-primary">24/7 Support</p>
-                  </div>
-                </div>
               </CardContent>
             </Card>
 
@@ -122,18 +103,10 @@ const Contact = () => {
               <CardContent className="space-y-4">
                 <Button 
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-heading glow-neon hover-glow"
-                  onClick={() => window.location.href = "mailto:bookings@eliteagency.com"}
+                  onClick={() => window.location.href = "mailto:info@runawaytonight.com"}
                 >
                   <Mail className="mr-2 w-4 h-4" />
                   Send Direct Email
-                </Button>
-                <Button 
-                  variant="outline"
-                  className="w-full border-primary/50 text-primary hover:bg-primary/10 glass-effect"
-                  onClick={() => window.location.href = "tel:+15551234BOOK"}
-                >
-                  <Phone className="mr-2 w-4 h-4" />
-                  Call Now
                 </Button>
               </CardContent>
             </Card>

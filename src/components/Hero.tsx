@@ -28,9 +28,9 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main Heading */}
           <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-black mb-6 animate-fade-in">
-            <span className="text-neon-strong animate-neon-flicker">RAT</span>
+            <span className="text-neon-strong animate-neon-flicker">RUNAWAY</span>
             <br />
-            <span className="text-foreground">AGENCY</span>
+            <span className="text-foreground">TONIGHT</span>
           </h1>
 
           {/* Subheading */}

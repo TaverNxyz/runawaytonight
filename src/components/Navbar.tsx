@@ -87,25 +87,13 @@ const Navbar = () => {
                 <Button 
                   size="sm"
                   onClick={() => {
-                    window.location.href = "mailto:bookings@eliteagency.com";
+                    window.location.href = "mailto:info@runawaytonight.com";
                     setIsMobileMenuOpen(false);
                   }}
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium glow-neon justify-start"
                 >
                   <Mail className="mr-2 w-4 h-4" />
                   Email Us
-                </Button>
-                <Button 
-                  variant="outline"
-                  size="sm"
-                  onClick={() => {
-                    window.location.href = "tel:+15551234BOOK";
-                    setIsMobileMenuOpen(false);
-                  }}
-                  className="border-primary/50 text-primary hover:bg-primary/10 glass-effect justify-start"
-                >
-                  <Phone className="mr-2 w-4 h-4" />
-                  Call Now
                 </Button>
               </div>
             </div>
