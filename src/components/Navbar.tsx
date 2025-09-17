@@ -28,8 +28,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="font-heading text-2xl font-black">
-            <span className="text-neon">ELITE</span>
-            <span className="text-primary ml-1">BOOKING</span>
+            <span className="text-neon">RAT</span>
+            <span className="text-primary ml-1">AGENCY</span>
           </div>
 
           {/* Desktop Navigation */}

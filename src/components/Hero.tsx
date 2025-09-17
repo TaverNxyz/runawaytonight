@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Mail, Calendar, Star } from "lucide-react";
-import heroImage from "@/assets/hero-booking.jpg";
+import heroImage from "@/assets/hero-background.gif";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -28,16 +28,14 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Main Heading */}
           <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-black mb-6 animate-fade-in">
-            <span className="text-neon-strong animate-neon-flicker">ELITE</span>
+            <span className="text-neon-strong animate-neon-flicker">RAT</span>
             <br />
-            <span className="text-foreground">BOOKING</span>
-            <br />
-            <span className="text-primary">AGENCY</span>
+            <span className="text-foreground">AGENCY</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed animate-fade-in delay-300">
-            Connecting extraordinary talent with unforgettable opportunities. 
+            RunAwayTonight Agency - Connecting extraordinary talent with unforgettable opportunities. 
             Professional booking services for the next generation of entertainment.
           </p>
 
