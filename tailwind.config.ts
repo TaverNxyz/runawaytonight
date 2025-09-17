@@ -128,6 +128,7 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
         "glow-pulse": "glow-pulse 2s ease-in-out infinite",
         "neon-flicker": "neon-flicker 2s ease-in-out infinite",
+        "spin-slow": "spin 4s linear infinite",
       },
     },
   },

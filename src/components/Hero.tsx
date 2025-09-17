@@ -44,21 +44,14 @@ const Hero = () => {
             <div className="glass-effect rounded-lg p-4 border-neon">
               <div className="flex items-center gap-2 text-primary">
                 <Star className="w-5 h-5" />
-                <span className="font-heading font-bold">500+</span>
+                <span className="font-heading font-bold">150+</span>
               </div>
               <p className="text-sm text-muted-foreground">Events Booked</p>
             </div>
             <div className="glass-effect rounded-lg p-4 border-neon">
               <div className="flex items-center gap-2 text-primary">
-                <Calendar className="w-5 h-5" />
-                <span className="font-heading font-bold">24/7</span>
-              </div>
-              <p className="text-sm text-muted-foreground">Support</p>
-            </div>
-            <div className="glass-effect rounded-lg p-4 border-neon">
-              <div className="flex items-center gap-2 text-primary">
                 <Mail className="w-5 h-5" />
-                <span className="font-heading font-bold">1000+</span>
+                <span className="font-heading font-bold">100+</span>
               </div>
               <p className="text-sm text-muted-foreground">Artists</p>
             </div>
