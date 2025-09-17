@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useEffect } from "react";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 const Index = () => {
+  useEffect(() => {
+    // Set page title and meta description for SEO
+    document.title = "Elite Booking Agency - Professional Entertainment Booking Services";
+    
+    // Update meta description
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Professional booking agency connecting extraordinary talent with unforgettable opportunities. 24/7 support for artists, events, and entertainment bookings.');
+    }
+  }, []);
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
+      <Services />
+      <Contact />
+      <Footer />
+    </main>
   );
 };
 
